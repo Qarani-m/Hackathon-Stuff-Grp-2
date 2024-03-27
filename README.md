@@ -1,4 +1,4 @@
-                                                     SULUHU Application README
+                                                 SULUHU Application README
 
 Introduction
 
@@ -9,12 +9,32 @@ Prerequisites
 Before getting started with the application, ensure you have the following prerequisites installed:
 
 . Java Development Kit (JDK) 8 or later
+
 . Java version 17 or later
+
 . Maven (for building and managing dependencies)
+
 . An Integrated Development Environment (IDE) such as IntelliJ IDEA or Eclipse (optional but recommended)
+
 . node version 16 or later
+
 . npm version 10 or later
+
 . vite version 5 or later
+
+
+Installation
+
+To install and run the application, follow these steps:
+
+Clone the repository from [].
+
+Open the project in your preferred IDE(prefererbly Intellij or Eclipse).
+
+Build the project using Maven: mvn clean install.
+
+Run the application using the Spring Boot Maven plugin: mvn spring-boot:run.
+
 
 
 
