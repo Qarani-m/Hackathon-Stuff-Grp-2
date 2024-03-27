@@ -57,14 +57,24 @@ The system is a Spring Boot application built to handle user management function
 
 1. *User Management*:
    
-   - Provides endpoints for user login (/api/users/login).
+   - Provides endpoints for user login (
+   - /api/users/login
+   - ).
      
-   - Supports changing user roles (/api/users/changeUserRole).
+   - Supports changing user roles (
+   - /api/users/changeUserRole
+   - ).
   
   
 2. *Logging*:
 
-   - Offers endpoints to retrieve logs stored in a file (/api/users/logs, /api/users/logs/level/{logLevel}, /api/users/logs/type/{logType}, /api/users/logs/date/{date}, /api/users/logs/datetime/{logType}).
+   - Offers endpoints to retrieve logs stored in a file (
+   - /api/users/logs,
+   - /api/users/logs/level/{logLevel},
+   - /api/users/logs/type/{logType},
+   - /api/users/logs/date/{date},
+   - /api/users/logs/datetime/{logType}
+   -   ).
      
 
 3. *Data Fetching*:
@@ -109,6 +119,18 @@ The system is a Spring Boot application built to handle user management function
 - *React*: Frontend framework for creating components.
   
 - *Vite*: Build tool that aims to provide a faster and leaner development experience for modern web projects.
+ 
+
+Contributing
+
+. We welcome contributions from the community. If you find any issues or have suggestions for improvements, please feel free to open an issue or submit a pull request on GitHub.
+
+
+Contact
+
+. For any inquiries or assistance regarding the application, you can contact SuluhuAdmin at suluhuadmin@admin.
+
+
   
   
 
