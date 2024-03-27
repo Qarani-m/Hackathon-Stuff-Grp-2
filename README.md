@@ -58,22 +58,22 @@ The system is a Spring Boot application built to handle user management function
 1. *User Management*:
    
    - Provides endpoints for user login (
-   - /api/users/login
+   - `/api/users/login`
    - ).
      
    - Supports changing user roles (
-   - /api/users/changeUserRole
+   - `/api/users/changeUserRole`
    - ).
   
   
 2. *Logging*:
 
    - Offers endpoints to retrieve logs stored in a file (
-   - /api/users/logs,
-   - /api/users/logs/level/{logLevel},
-   - /api/users/logs/type/{logType},
-   - /api/users/logs/date/{date},
-   - /api/users/logs/datetime/{logType}
+   ` /api/users/logs,`
+   `- /api/users/logs/level/{logLevel},`
+   `- /api/users/logs/type/{logType},`
+   `- /api/users/logs/date/{date},`
+   `- /api/users/logs/datetime/{logType}`
    -   ).
      
 
@@ -157,6 +157,15 @@ The system is a Spring Boot application built to handle user management function
 - *React*: Frontend framework for creating components.
   
 - *Vite*: Build tool that aims to provide a faster and leaner development experience for modern web projects.
+
+Our tables that we mapped look as follows
+
+![Screenshot (330)](https://github.com/Qarani-m/Hackathon-Stuff-Grp-2/assets/112067611/d56a0939-abb8-4321-9c51-bbfc78e94d74)
+
+
+![Screenshot (331)](https://github.com/Qarani-m/Hackathon-Stuff-Grp-2/assets/112067611/80df4715-aa34-40c6-9e05-7efb2cc5a235)
+
+
  
 
 Contributing
@@ -173,6 +182,9 @@ Contact
   
 
   . Overall, the system provides a comprehensive solution for user management and data retrieval tasks, leveraging Spring Boot's powerful features and various libraries for efficient development.
+
+
+  
 
 
 
