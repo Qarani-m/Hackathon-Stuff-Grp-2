@@ -27,7 +27,7 @@ Installation
 
 To install and run the application, follow these steps:
 
-Clone the repository from [].
+Clone the repository from https://github.com/Qarani-m/Hackathon-Stuff-Grp-2.git
 
 Open the project in your preferred IDE(prefererbly Intellij or Eclipse).
 
