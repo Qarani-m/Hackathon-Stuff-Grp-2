@@ -46,6 +46,8 @@ Usage
 
 . Once the application is up and running, you can access the APIs through your preferred REST client (e.g., Postman). The endpoints and their functionalities are documented in the API documentation.
 
+. The user interface can be accessed by moving to the FrontEnd folder, installing the packages by running "npm install", then run "npm run dev" to spin up the frontend server
+
 1# System Overview
 
 The system is a Spring Boot application built to handle user management functionalities and data retrieval from an external database. It provides RESTful endpoints for user login, registration, and role management. Additionally, it includes scheduled tasks to fetch data from a remote database periodically.
