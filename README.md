@@ -81,6 +81,14 @@ The system is a Spring Boot application built to handle user management function
    
    - Fetches data from a remote database at regular intervals using scheduled tasks.
   
+4. * API Contract *
+  
+     /api/users/logs :
+     {
+     }
+
+     
+  
 
   #### Dependencies:
   
