@@ -84,7 +84,33 @@ The system is a Spring Boot application built to handle user management function
 4. * API Contract *
   
      /api/users/logs :
+     
      {
+     
+     }
+
+     /api/users/logs/level/{logLevel} :
+     
+     {
+
+     }
+
+      /api/users/logs/type/{logType} :
+
+     {
+
+     }
+
+     /api/users/logs/date/{date} :
+
+     {
+
+     }
+
+     /api/users/logs/datetime/{logType} :
+
+     {
+
      }
 
      
