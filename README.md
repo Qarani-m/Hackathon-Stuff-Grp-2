@@ -110,8 +110,9 @@ The system is a Spring Boot application built to handle user management function
   
 - *Vite*: Build tool that aims to provide a faster and leaner development experience for modern web projects.
   
+  
 
-  .Overall, the system provides a comprehensive solution for user management and data retrieval tasks, leveraging Spring Boot's powerful features and various libraries for efficient development.
+  . Overall, the system provides a comprehensive solution for user management and data retrieval tasks, leveraging Spring Boot's powerful features and various libraries for efficient development.
 
 
 
