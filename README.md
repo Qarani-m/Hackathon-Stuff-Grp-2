@@ -158,12 +158,29 @@ The system is a Spring Boot application built to handle user management function
   
 - *Vite*: Build tool that aims to provide a faster and leaner development experience for modern web projects.
 
-Our tables that we mapped look as follows
+# Our tables that we mapped look as follows
 
 ![Screenshot (330)](https://github.com/Qarani-m/Hackathon-Stuff-Grp-2/assets/112067611/d56a0939-abb8-4321-9c51-bbfc78e94d74)
 
 
 ![Screenshot (331)](https://github.com/Qarani-m/Hackathon-Stuff-Grp-2/assets/112067611/80df4715-aa34-40c6-9e05-7efb2cc5a235)
+
+
+![Screenshot (332)](https://github.com/Qarani-m/Hackathon-Stuff-Grp-2/assets/112067611/f44c4220-5173-459e-a414-df871314bbd0)
+
+The data retrieved from Echis CouchDB arrives in an unstructured format. We execute specific queries to extract relevant information, which we then need to align with KHIS endpoints. These endpoints serve as destinations for the data, as illustrated in the diagram below.
+
+Modifications:
+The JSON response is structured into the `EchiData` table, encompassing fields such as `form_id`, `chu_id`, `element`, `value`, `date`, and `person`.
+
+Additionally, we maintain an `OrgUnit` table containing fields like `chu_id`, `name`, `parent`, `ward`, `sub_county`, and `nationality`.
+
+Another entity, the `DataElement` table, is structured with attributes like `data_uid`, `name`, and `description`.
+
+The id field extracted from the JSON response corresponds to the `form_id` attribute within the `EchiData` class.
+
+Similarly, the `key` field corresponds to another attribute within the data structure.
+
 
 
  
