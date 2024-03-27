@@ -84,19 +84,18 @@ public class UserController {
         }
     }
 
-
     @GetMapping("/logs")
     public ResponseEntity<List<LogEntity>> getLogsB() {
         List<String> logs = userService.readLogsFromFile();
         List<LogEntity> filteredLogs = new ArrayList<>();
         for(String log: logs) {
+            System.out.println("====.>."+log);
             LogEntity logEntity = userService.parseLog(log);
             filteredLogs.add(logEntity);
         }
         return ResponseEntity.ok().body(filteredLogs);
 
     }
-
 
     @GetMapping("/logs/level/{logLevel}")
     public ResponseEntity<?> getLogsByLevel(@PathVariable String logLevel) {

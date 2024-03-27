@@ -23,9 +23,9 @@ public class UserEntity {
     private String code;
     private UserEntity.Role role;
     public enum Role{
-        SUPERADMIN,
-        COUNTYADMIN,
-        SUBCOUNTYADMIN,
-        CHUADMIN
+        A, //SUPER ADMIN
+        B, //COUNTY
+        C, // SUBCOUNTY
+        D,//CHU
     }
 }

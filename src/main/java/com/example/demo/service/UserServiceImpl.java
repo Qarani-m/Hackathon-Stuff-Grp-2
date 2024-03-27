@@ -73,19 +73,21 @@ public class UserServiceImpl implements UserService {
     }
 
     @Override
-    public Object changeUserRole(ChangeUserRole changeUserRole) {
-        UserEntity userEntity=userRepository.findByCode(changeUserRole.getTPersonChangingRoleCode());
+public Object changeUserRole(ChangeUserRole changeUserRole) {
+//        UserEntity userEntity=userRepository.findByCode(changeUserRole.getTPersonChangingRoleCode());
+//
+//        if(userEntity.getRole() != changeUserRole.personChangingRole){
+//            return "Return something appropriate";
+//        }
+//        if (!checkAuthority(changeUserRole.getPersonChangingRole())) {
+//            return "Insufficient authority to change user role";
+//        }
+//        return "User role changed successfully";
+//    }
+//    private boolean checkAuthority(UserEntity.Role personChangingRole) {
+//        return personChangingRole == UserEntity.Role.SUPERADMIN;
 
-        if(userEntity.getRole() != changeUserRole.personChangingRole){
-            return "Return something appropriate";
-        }
-        if (!checkAuthority(changeUserRole.getPersonChangingRole())) {
-            return "Insufficient authority to change user role";
-        }
-        return "User role changed successfully";
-    }
-    private boolean checkAuthority(UserEntity.Role personChangingRole) {
-        return personChangingRole == UserEntity.Role.SUPERADMIN;
+        return null;
     }
 
     @Override
@@ -102,6 +104,7 @@ public class UserServiceImpl implements UserService {
 
             e.printStackTrace(); // Handle file reading errors gracefully in your application
         }
+        System.out.println("======>  "+logs);
         return logs;
     }
     @Override
