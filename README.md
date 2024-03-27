@@ -22,18 +22,36 @@ Before getting started with the application, ensure you have the following prere
 
 . vite version 5 or later
 
+. PostgrsSQL database installed
+
 
 Installation
 
-To install and run the application, follow these steps:
+. To install and run the application, follow these steps:
 
-Clone the repository from https://github.com/Qarani-m/Hackathon-Stuff-Grp-2.git
+. Clone the repository from https://github.com/Qarani-m/Hackathon-Stuff-Grp-2.git
 
-Open the project in your preferred IDE(prefererbly Intellij or Eclipse).
+. Open the project in your preferred IDE(prefererbly Intellij or Eclipse).
 
-Build the project using Maven: mvn clean install.
+. Build the project using Maven: mvn clean install.
 
-Run the application using the Spring Boot Maven plugin: mvn spring-boot:run.
+. Run the application using the Spring Boot Maven plugin: mvn spring-boot:run.
+
+
+Configuration
+
+. The application configuration can be found in the application.properties file located in the src/main/resources directory. Customize the configuration properties such as server port, database connection details, etc., as per your requirements.
+
+Usage
+
+. Once the application is up and running, you can access the APIs through your preferred REST client (e.g., Postman). The endpoints and their functionalities are documented in the API documentation.
+
+1# System Overview
+
+The system is a Spring Boot application built to handle user management functionalities and data retrieval from an external database. It provides RESTful endpoints for user login, registration, and role management. Additionally, it includes scheduled tasks to fetch data from a remote database periodically.
+
+
+
 
 
 
