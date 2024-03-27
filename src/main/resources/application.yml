@@ -1,21 +1,21 @@
+server:
+  port: 9092
 spring:
   datasource:
-    url: jdbc:postgresql://localhost:5432/mydatabase
-    username: postgres
-    password: grp2
+    url: jdbc:postgresql://localhost:5432/echis_data_1
+    username: admin
+    password: admin
     driver-class-name: org.postgresql.Driver
-
-
   jpa:
     properties:
       hibernate:
-        dialect: org.hibernate.dialect.PostgreSQLDialect
         format_sql: true
     hibernate:
       ddl-auto: none
-
-  sql:
-    init:
-      mode: always
-      schema-locations: classpath:/data.sql
-      continue-on-error: true
+#logging:
+#  pattern:
+#    console: "%d{yyyy-MM-dd HH:mm:ss.SSS} [%thread] %-5level %logger{36} - %msg%n"
+#
+#  file:
+#    name: myapp.log
+#    path: /src/main/logs/
